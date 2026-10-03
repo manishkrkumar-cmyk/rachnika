@@ -1,0 +1,16 @@
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+*.class
+**/node_modules/
+**/build/
+**/dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/

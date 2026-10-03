@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        flipkart: {
+          blue: '#2874f0',
+          yellow: '#ffe500',
+          orange: '#fb641b',
+          dark: '#172337',
+        }
+      }
+    },
+  },
+  plugins: [],
+};
